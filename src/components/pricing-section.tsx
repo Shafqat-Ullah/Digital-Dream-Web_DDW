@@ -46,14 +46,14 @@ export function PricingSection() {
             </div>
             <div className="pricing-card-wrapper">
               <div className="pricing-card" data-w-id="28f8c424-5a0c-1696-3f28-892e9e672694">
-                <div className="pricing-title">Website Project</div>
+                <div className="pricing-title">Starter Website</div>
                 <div className="text-regular">
-                  All the basics for your business. Ideal for landing pages, portfolios, and small
-                  business websites.
+                  Ideal for personal, landing and small business websites. Up to 5 pages, fully
+                  mobile responsive and search-friendly.
                 </div>
                 <div className="price-wrap">
-                  <div className="price">$500</div>
-                  <div className="text-regular">Project</div>
+                  <div className="price">Get a Quote</div>
+                  <div className="text-regular">Per Project</div>
                 </div>
                 <a href="#Contact" className="button-primary w-variant-c773d453-327c-dd9b-3a94-7270ab807b10 w-button">
                   Start Your Project
@@ -78,14 +78,14 @@ export function PricingSection() {
                 className="pricing-card _2nd"
                 data-w-id="386414eb-c014-ab10-626c-a898664d37b0"
               >
-                <div className="pricing-title is-light">Business Growth</div>
+                <div className="pricing-title is-light">Business Website</div>
                 <div className="text-regular is-white">
-                  Everything a growing business needs. Perfect for e-commerce stores, SaaS apps,
-                  and custom platforms.
+                  Perfect for e-commerce stores and growing businesses that need a complete,
+                  professional online presence.
                 </div>
                 <div className="price-wrap">
-                  <div className="price is-light">$2,500</div>
-                  <div className="text-regular is-white">Project</div>
+                  <div className="price is-light">Get a Quote</div>
+                  <div className="text-regular is-white">Per Project</div>
                 </div>
                 <a href="#Contact" className="button-primary w-button">
                   Get a Free Consultation
@@ -97,7 +97,7 @@ export function PricingSection() {
                       { t: "Custom web app development." },
                       { t: "E-commerce & payment gateways." },
                       { t: "CMS & admin dashboard." },
-                      { t: "Mobile-app-ready API." },
+                      { t: "API & integrations ready." },
                       { t: "Advanced SEO & performance." },
                       { t: "Priority support (1 business day)." },
                       { t: "Full source code & documentation." },
@@ -117,10 +117,10 @@ export function PricingSection() {
                 <div className="bg-right" />
                 <div className="bg-left" />
                 <div className="pricing-card">
-                  <div className="pricing-title">Custom / Enterprise</div>
+                  <div className="pricing-title">Custom Web Application</div>
                   <div className="text-regular">
-                    Have a unique idea in mind? Tell us about it — we&apos;ll reply within 24 hours
-                    with a plan and a clear quote.
+                    Need a custom web application or a unique digital solution? Tell us about your
+                    idea and we&apos;ll share a plan and a clear quote.
                   </div>
                   <a href="#Contact" className="button-primary w-variant-c773d453-327c-dd9b-3a94-7270ab807b10 w-button">
                     Contact Now

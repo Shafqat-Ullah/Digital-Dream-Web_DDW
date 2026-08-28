@@ -6,33 +6,33 @@ import { asset } from "@/lib/site";
 const tabs = [
   {
     title: "Web Development",
-    desc: "Custom, high-performance websites and web apps built with Next.js, React, and the MERN stack — fast, secure, and SEO-ready.",
+    desc: "Professional, responsive and high-performance websites built around your business goals.",
     img: asset("/axiolance/691b691fd4e8df2c53622a35_Multitenancy (2).avif"),
     alt: "Web Development",
   },
   {
-    title: "Mobile Apps",
-    desc: "Native-feeling iOS and Android apps with clean architecture, offline support, and push notifications your users will love.",
+    title: "MERN Stack Development",
+    desc: "Full-stack web applications built using MongoDB, Express.js, React and Node.js.",
     img: asset("/axiolance/691b69857f36dba853a8771f_Multilingual.avif"),
-    alt: "Mobile Apps",
+    alt: "MERN Stack Development",
+  },
+  {
+    title: "React & Next.js Development",
+    desc: "Modern, scalable and performance-focused websites and web applications.",
+    img: asset("/axiolance/691b69d3d9e0a78fac1e3ccb_Single-Page-Application.avif"),
+    alt: "React & Next.js Development",
+  },
+  {
+    title: "E-Commerce Development",
+    desc: "Professional online stores with product catalogs, shopping carts, checkout and payment integrations.",
+    img: asset("/axiolance/691b6a557d08713cb399d8e2_Custom-Domain.avif"),
+    alt: "E-Commerce Development",
   },
   {
     title: "UI/UX Design",
-    desc: "Research-driven interfaces, wireframes, and design systems that turn visitors into customers.",
-    img: asset("/axiolance/691b69d3d9e0a78fac1e3ccb_Single-Page-Application.avif"),
-    alt: "UI/UX Design",
-  },
-  {
-    title: "SaaS & Product Engineering",
-    desc: "From MVP to scale — multi-tenant dashboards, billing, and secure back ends that grow with your users.",
-    img: asset("/axiolance/691b6a557d08713cb399d8e2_Custom-Domain.avif"),
-    alt: "SaaS & Product Engineering",
-  },
-  {
-    title: "AI & Automation",
-    desc: "Custom AI assistants, chatbots, and workflow automation that save your team hours every week.",
+    desc: "Clean, user-friendly interfaces designed to make websites and applications easy to use.",
     img: asset("/axiolance/691b6abe4e0a84a165d65d40_Stripe-Billing.avif"),
-    alt: "AI & Automation",
+    alt: "UI/UX Design",
   },
 ];
 

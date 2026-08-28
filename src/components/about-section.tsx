@@ -18,13 +18,15 @@ export function AboutSection() {
                 </div>
               </div>
               <h2 className="sub-heading" data-w-id="f413ce83-000a-55c6-1b97-ca71ed641af9">
-                A Full-Service Agency for Digital Products &amp; Growth
+                Building Digital Solutions With Purpose
               </h2>
               <p className="text-large" data-w-id="2a0f10d4-c964-8d55-9344-1297faf8e170">
-                Digital Dream Web is a full-service software agency helping businesses design,
-                build, and scale digital products. From marketing websites to complex SaaS
-                platforms, we handle strategy, design, development, and growth — so you can focus
-                on running your business.
+                Digital Dream Web (DDW) is a digital solutions agency founded by Shafqat Ullah,
+                focused on helping businesses and individuals establish a strong and professional
+                presence online. We design and develop modern websites, web applications,
+                e-commerce solutions, and custom digital experiences using modern web technologies.
+                Our goal is not simply to create a website, but to create a digital solution that
+                is professional, responsive, useful, and aligned with the client&rsquo;s business goals.
               </p>
               <div
                 className="inner-container about"
@@ -32,15 +34,15 @@ export function AboutSection() {
               >
                 <div className="about-count">
                   <h2 className="sub-heading">
-                    2.5<span className="text-blue">x</span>
+                    2<span className="text-blue">+</span>
                   </h2>
-                  <div className="text-large">Faster Delivery</div>
+                  <div className="text-large">Years Experience</div>
                 </div>
                 <div className="about-count">
                   <h2 className="sub-heading">
-                    $2.5M<span className="text-blue">+</span>
+                    8<span className="text-blue">+</span>
                   </h2>
-                  <div className="text-large">Client Revenue Generated</div>
+                  <div className="text-large">Professional Services</div>
                 </div>
               </div>
             </div>

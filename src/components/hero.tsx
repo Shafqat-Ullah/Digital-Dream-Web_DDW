@@ -105,15 +105,15 @@ export function Hero() {
 
             <div className="inner-container banner">
               <h1 className="main-heading" data-w-id="3b1dac7c-d603-ed44-5bc3-410a0ce5b3ec">
-                We Build Websites, Apps
+                Your Business Deserves
               </h1>
               <div className="inner-container is-flex" data-w-id="005a2ab4-8bf8-7792-5da0-5fdcb15167a4">
                 <div className="inner-container">
-                  <div className="main-heading">&amp; Software That</div>
+                  <div className="main-heading">a Better</div>
                 </div>
                 <div className="inner-container text-frame">
                   <div className="main-heading">
-                    <span className="text-blue">Convert</span>
+                    <span className="text-blue">Website.</span>
                   </div>
                   <img
                     src={asset("/axiolance/690f57590170aec328525866_Group 1261153753.svg")}
@@ -127,8 +127,9 @@ export function Hero() {
             </div>
 
             <p className="text-large" data-w-id="f89eaf18-b426-df3a-579f-5be37945ddc6">
-              A full-service software agency helping startups and growing businesses launch fast,
-              secure websites, apps, and AI-powered products that drive revenue.
+              Digital Dream Web helps businesses, startups, and individuals build professional
+              websites and digital solutions that create a strong online presence, build customer
+              trust, and support business growth.
             </p>
 
             <div
@@ -142,7 +143,7 @@ export function Hero() {
                 href="#Services"
                 className="button-primary w-variant-4f002c81-1fc6-364c-3605-7f3374a06f02 w-button"
               >
-                See Our Work
+                View Our Work
               </a>
             </div>
           </div>

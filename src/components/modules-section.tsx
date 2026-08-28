@@ -3,32 +3,32 @@ const services = [
   {
     title: "Web Development",
     icon: asset("/axiolance/68d278779785b179d264103a_users-alt.svg"),
-    desc: "Custom, high-performance websites and web apps built with Next.js, React, and the MERN stack — fast, secure, and SEO-ready.",
+    desc: "Professional, responsive and high-performance websites built around your business goals.",
   },
   {
-    title: "Mobile Apps",
+    title: "Custom Web Applications",
     icon: asset("/axiolance/68d27dd5c35246398a105bd1_signal-alt-2 1.svg"),
-    desc: "Native-feeling iOS and Android apps with clean architecture, offline support, and push notifications your users will love.",
+    desc: "Custom digital platforms, dashboards, booking systems, management systems and business applications.",
   },
   {
-    title: "E-commerce Solutions",
+    title: "E-Commerce Solutions",
     icon: asset("/axiolance/68d27dd5e2c959af427992b9_grocery-basket 1.svg"),
-    desc: "Online stores built to sell — product catalogs, secure payments, inventory, and checkout flows that convert visitors into buyers.",
+    desc: "Professional online stores with product catalogs, shopping carts, checkout and payment integrations.",
   },
   {
     title: "UI/UX Design",
     icon: asset("/axiolance/68d27bf4cf1c732c2caf4415_user-suitcase 1.svg"),
-    desc: "Research-driven interfaces, wireframes, and design systems that make your product easy, beautiful, and delightful to use.",
+    desc: "Clean, user-friendly interfaces designed to make websites and applications easy to use.",
   },
   {
-    title: "AI & Automation",
+    title: "Website Maintenance",
     icon: asset("/axiolance/68d27dd5cf1c732c2cafe90e_calculator-math-tax 1.svg"),
-    desc: "Custom AI assistants, chatbots, and workflow automation that save your team hours every single week.",
+    desc: "Bug fixing, performance optimization, updates, technical support and ongoing improvements.",
   },
   {
-    title: "SaaS & Product Engineering",
+    title: "Graphic Design",
     icon: asset("/axiolance/68d27bc1fb5a0b3f61eb62c5_person-dolly 1.svg"),
-    desc: "From MVP to scale — multi-tenant dashboards, billing, and secure back ends that grow with your users.",
+    desc: "Professional digital graphics, social media banners, promotional visuals and business designs.",
   },
 ];
 
