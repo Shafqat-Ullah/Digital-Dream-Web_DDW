@@ -12,7 +12,7 @@ const interTight = Inter_Tight({
 });
 
 const title = {
-  default: `${site.name} — Website Design & Development`,
+  default: `${site.name} — Websites, Apps & Software`,
   template: `%s | ${site.name}`,
 };
 
@@ -24,10 +24,10 @@ export const metadata: Metadata = {
   keywords: [
     "software development company",
     "web development agency",
+    "mobile app development",
     "UI UX design",
-    "custom web application development",
-    "website maintenance",
-    "graphic design",
+    "AI solutions",
+    "SaaS development",
     "e-commerce development",
     "SEO",
     "Next.js development",

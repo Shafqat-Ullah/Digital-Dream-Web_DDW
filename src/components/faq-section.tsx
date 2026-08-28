@@ -16,23 +16,23 @@ const faqIds = [
 const faqs = [
   {
     q: "What services does Digital Dream Web offer?",
-    a: "Digital Dream Web offers website development, MERN stack development, React & Next.js development, e-commerce solutions, UI/UX design, custom web applications, website maintenance, and graphic design.",
+    a: "We design and build websites, web apps, mobile apps, e-commerce stores, SaaS platforms, and AI-powered solutions.",
   },
   {
     q: "How much does a project cost?",
-    a: "Every project is quoted individually based on your needs and scope. Contact us with your requirements and we'll provide a clear, tailored quote with no hidden charges.",
+    a: "Every project is quoted individually. Simple sites start around $500, while larger apps and SaaS products range from $2,500 and up.",
   },
   {
     q: "How long does a project take?",
-    a: "A standard website typically takes 1–2 weeks, while e-commerce stores and custom web applications take longer depending on the scope and features.",
+    a: "A marketing site typically takes 1–3 weeks, while complex apps and SaaS platforms take 4–12 weeks depending on scope.",
   },
   {
     q: "Do you provide support after launch?",
-    a: "Yes. We provide post-launch support and offer affordable website maintenance plans to keep your site updated, secure, and performing well.",
+    a: "Yes. Every project includes free post-launch support, plus optional monthly care and maintenance plans.",
   },
   {
-    q: "Can you build a custom web application?",
-    a: "Absolutely. Whether you need a management system, dashboard, booking platform, or any custom digital solution, we build applications tailored to your business needs.",
+    q: "Can you build a custom SaaS or AI product?",
+    a: "Absolutely. We work with founders to turn MVPs into full multi-tenant products with billing, dashboards, and AI features.",
   },
 ];
 

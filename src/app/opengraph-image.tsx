@@ -3,7 +3,7 @@ import { site } from "@/lib/site";
 
 export const dynamic = "force-static";
 
-export const alt = "Digital Dream Web — Website & Digital Solutions Company";
+export const alt = "Digital Dream Web — Website & Software Development Company";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -49,7 +49,7 @@ export default function OpengraphImage() {
 
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div style={{ fontSize: "68px", fontWeight: 700, lineHeight: 1.08, letterSpacing: "-0.03em", maxWidth: "900px" }}>
-            Professional websites and digital solutions built with purpose.
+            Software, apps, and digital dreams built to perform.
           </div>
           <div style={{ marginTop: "28px", fontSize: "24px", color: "#C7D6E8", maxWidth: "820px", lineHeight: 1.5 }}>
             {site.description}
@@ -59,11 +59,11 @@ export default function OpengraphImage() {
         <div style={{ display: "flex", alignItems: "center", gap: "28px", fontSize: "20px", color: "#8FBEFD" }}>
           <span>Web Development</span>
           <span style={{ color: "#3B4D66" }}>•</span>
-          <span>E-Commerce</span>
+          <span>Mobile Apps</span>
           <span style={{ color: "#3B4D66" }}>•</span>
-          <span>Custom Web Apps</span>
+          <span>AI & SaaS</span>
           <span style={{ color: "#3B4D66" }}>•</span>
-          <span>UI/UX Design</span>
+          <span>Design & SEO</span>
         </div>
       </div>
     ),

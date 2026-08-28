@@ -136,7 +136,7 @@ export function Footer() {
               — Built with Next.js
             </div>
             <div className="text-regular is-gray">
-              Building Digital Solutions That Help Businesses Grow
+              Websites, apps &amp; software that help businesses grow
             </div>
           </div>
         </div>

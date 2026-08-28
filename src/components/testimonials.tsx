@@ -6,11 +6,27 @@ import { asset } from "@/lib/site";
 const items = [
   {
     quote:
-      "At Digital Dream Web, we build professional, modern and responsive digital solutions that help businesses create a strong online presence and achieve their goals. We are committed to quality, detail and long-term client satisfaction.",
-    name: "Digital Dream Web",
-    role: "Your Trusted Digital Solutions Partner",
-    photo: asset("/logo.png"),
-    logo: asset("/logo.png"),
+      "Digital Dream Web exceeded our expectations. The new site is sleek, lightning-fast, and packed with features that have visibly grown our conversions.",
+    name: "Sarah Miller",
+    role: "Founder & CEO at NOVA",
+    photo: asset("/axiolance/691b7052290656743802fd3f_Henry D. Suza (1).avif"),
+    logo: asset("/axiolance/69109b150659cf1cfea634ca_Logo-.svg"),
+  },
+  {
+    quote:
+      "We love working with Digital Dream Web. The flexible customization and smooth performance helped our team launch faster and deliver better results to clients consistently.",
+    name: "Imran Khan",
+    role: "Founder & CEO at xTRAI",
+    photo: asset("/axiolance/691b70e664e52cd4085c9962_Muntaha-Moon (1).avif"),
+    logo: asset("/axiolance/69109b1509c4ee482d866964_Logo1.svg"),
+  },
+  {
+    quote:
+      "They think like product owners, not contractors. Clean design and powerful features streamline our workflows and improve efficiency across the whole team.",
+    name: "Emily Chen",
+    role: "Product Lead at HIKI",
+    photo: asset("/axiolance/691b71942179e869b8e78d46_Nishant Monacha (1).avif"),
+    logo: asset("/axiolance/69109b15f0287592a33d56e6_Logo2.svg"),
   },
 ];
 
