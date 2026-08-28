@@ -18,6 +18,8 @@ export function ContactSection() {
     const message = String(data.get("Message") ?? "");
     const subject = `[Digital Dream Web] Project inquiry from ${name || "a client"}`;
     const body = [
+      subject,
+      "",
       `Name: ${name}`,
       `Email: ${email}`,
       `Company: ${company}`,
@@ -25,7 +27,7 @@ export function ContactSection() {
       "",
       message,
     ].join("\n");
-    window.location.href = `mailto:${site.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(body)}`;
     setSent(true);
   };
 
@@ -78,6 +80,15 @@ export function ContactSection() {
                         className="phone-logo"
                       />
                       <div className="text-regular">{site.phoneDisplay}</div>
+                    </a>
+                    <a href={`https://wa.me/${site.whatsapp}`} target="_blank" rel="noreferrer" className="contact-link w-inline-block">
+                      <img
+                        src={asset("/axiolance/68d2cece266dc46d193bac97_phone-call.svg")}
+                        loading="lazy"
+                        alt=""
+                        className="phone-logo"
+                      />
+                      <div className="text-regular">WhatsApp: {site.phoneDisplay}</div>
                     </a>
                   </div>
                 </div>
