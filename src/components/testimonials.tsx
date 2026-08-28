@@ -1,6 +1,6 @@
 ﻿"use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { asset } from "@/lib/site";
 
 const items = [
@@ -10,6 +10,7 @@ const items = [
     name: "Shafqat Ullah",
     role: "Founder & MERN Stack Developer",
     photo: asset("/axiolance/691b7052290656743802fd3f_Henry D. Suza (1).avif"),
+    logo: asset("/logo.png"),
   },
   {
     quote:
@@ -17,6 +18,7 @@ const items = [
     name: "Web Developer",
     role: "Web Development & E-Commerce",
     photo: asset("/axiolance/691b70e664e52cd4085c9962_Muntaha-Moon (1).avif"),
+    logo: asset("/logo.png"),
   },
   {
     quote:
@@ -24,6 +26,7 @@ const items = [
     name: "UI/UX Designer",
     role: "UI/UX & Custom Web Apps",
     photo: asset("/axiolance/691b71942179e869b8e78d46_Nishant Monacha (1).avif"),
+    logo: asset("/logo.png"),
   },
 ];
 
@@ -48,13 +51,6 @@ export function Testimonials() {
 
   const prev = () => setIndex((i) => (i === 0 ? total - 1 : i - 1));
   const next = () => setIndex((i) => (i === total - 1 ? 0 : i + 1));
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setIndex((i) => (i + 1) % total);
-    }, 4000);
-    return () => clearInterval(timer);
-  }, [total]);
 
   return (
     <section className="section-testimonials">
@@ -98,6 +94,7 @@ export function Testimonials() {
                               alt=""
                               className="quation-logo"
                             />
+                            <img src={t.logo} loading="lazy" alt={t.role.split(" at ")[1] ?? ""} className="logo-testimonials" />
                           </div>
                           <div className="author-info-wrapper">
                             <div className="inner-container testimonials">
@@ -121,16 +118,6 @@ export function Testimonials() {
                 <div className="slider-arrow">
                   <Arrow />
                 </div>
-              </button>
-            </div>
-            <div className="team-controls" style={{ textAlign: "center", marginTop: "24px" }}>
-              <button
-                type="button"
-                onClick={next}
-                className="button-primary w-button"
-                style={{ cursor: "pointer" }}
-              >
-                Next
               </button>
             </div>
           </div>
