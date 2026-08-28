@@ -167,7 +167,7 @@ export function DashbordOverlay() {
   return (
     <div className="dashbord-image-wrapper" data-w-id="f125550c-4eb5-5fa6-74d2-ee4a75889afb">
       <img
-        src={asset("/axiolance/691b7a80823adc69c855f297_dashboard-overview.avif")}
+        src={asset("/ddw/overview-card.png")}
         loading="lazy"
         alt="Project dashboard overview"
         className="overview-image"
@@ -175,14 +175,14 @@ export function DashbordOverlay() {
       />
       <div className="dashbord-image-cover">
         <img
-          src={asset("/axiolance/691b7994e77f494e1d51c18c_dashbord.avif")}
+          src={asset("/ddw/hero-dashboard.png")}
           loading="lazy"
           alt="Dashboard"
           className="dashbord-image"
         />
       </div>
       <img
-        src={asset("/axiolance/691b7a3758195f7a848f71ba_dashboard-progress.avif")}
+        src={asset("/ddw/progress-card.png")}
         loading="lazy"
         alt="Project progress"
         className="progress-image"

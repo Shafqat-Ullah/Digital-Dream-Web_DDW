@@ -7,31 +7,31 @@ const tabs = [
   {
     title: "Web Development",
     desc: "Custom, high-performance websites and web apps built with Next.js, React, and the MERN stack — fast, secure, and SEO-ready.",
-    img: asset("/axiolance/691b691fd4e8df2c53622a35_Multitenancy (2).avif"),
+    img: asset("/ddw/feature-spa.png"),
     alt: "Web Development",
   },
   {
     title: "Mobile Apps",
     desc: "Native-feeling iOS and Android apps with clean architecture, offline support, and push notifications your users will love.",
-    img: asset("/axiolance/691b69857f36dba853a8771f_Multilingual.avif"),
+    img: asset("/ddw/feature-multilingual.png"),
     alt: "Mobile Apps",
   },
   {
     title: "UI/UX Design",
     desc: "Research-driven interfaces, wireframes, and design systems that turn visitors into customers.",
-    img: asset("/axiolance/691b69d3d9e0a78fac1e3ccb_Single-Page-Application.avif"),
+    img: asset("/ddw/feature-multitenancy.png"),
     alt: "UI/UX Design",
   },
   {
     title: "SaaS & Product Engineering",
     desc: "From MVP to scale — multi-tenant dashboards, billing, and secure back ends that grow with your users.",
-    img: asset("/axiolance/691b6a557d08713cb399d8e2_Custom-Domain.avif"),
+    img: asset("/ddw/feature-customdomain.png"),
     alt: "SaaS & Product Engineering",
   },
   {
     title: "AI & Automation",
     desc: "Custom AI assistants, chatbots, and workflow automation that save your team hours every week.",
-    img: asset("/axiolance/691b6abe4e0a84a165d65d40_Stripe-Billing.avif"),
+    img: asset("/ddw/feature-stripe.png"),
     alt: "AI & Automation",
   },
 ];
