@@ -6,10 +6,26 @@ import { asset } from "@/lib/site";
 const items = [
   {
     quote:
-      "At Digital Dream Web, we build professional, modern and responsive digital solutions that help businesses create a strong online presence and achieve their goals. We are committed to quality, detail and long-term client satisfaction.",
-    name: "Digital Dream Web",
-    role: "Your Trusted Digital Solutions Partner",
-    photo: asset("/logo.png"),
+      "I build professional, modern and responsive websites and web applications that help businesses create a strong online presence, earn customer trust and grow.",
+    name: "Shafqat Ullah",
+    role: "Founder & MERN Stack Developer",
+    photo: asset("/axiolance/691b7052290656743802fd3f_Henry D. Suza (1).avif"),
+    logo: asset("/logo.png"),
+  },
+  {
+    quote:
+      "I design and develop clean, user-friendly interfaces and e-commerce stores that convert visitors into customers.",
+    name: "Web Developer",
+    role: "Web Development & E-Commerce",
+    photo: asset("/axiolance/691b70e664e52cd4085c9962_Muntaha-Moon (1).avif"),
+    logo: asset("/logo.png"),
+  },
+  {
+    quote:
+      "I craft custom web applications and digital solutions tailored to each client's business goals and long-term growth.",
+    name: "UI/UX Designer",
+    role: "UI/UX & Custom Web Apps",
+    photo: asset("/axiolance/691b71942179e869b8e78d46_Nishant Monacha (1).avif"),
     logo: asset("/logo.png"),
   },
 ];
@@ -40,6 +56,20 @@ export function Testimonials() {
     <section className="section-testimonials">
       <div className="padding-global">
         <div className="w-layout-blockcontainer container lg w-container">
+          <div className="section-header is-max">
+            <div className="section-tag-wrapper">
+              <img
+                src={asset("/axiolance/690f74385894ecf58abef4d1_68bfb430481fa3c0e8610f39_Vector (3) 1.svg")}
+                loading="lazy"
+                alt=""
+                className="star-tag"
+              />
+              <div className="tag-text">Our Team</div>
+            </div>
+            <h2 className="sub-heading" data-w-id="7652ffc4-a06b-6afc-64e8-1f8c722d1375">
+              Meet the Team Behind Digital Dream Web
+            </h2>
+          </div>
           <div
             className="testimonials-main-wrapper"
             data-w-id="7652ffc4-a06b-6afc-64e8-1f8c722d1375"
