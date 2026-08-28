@@ -1,7 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/site-footer";
+import { asset } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Privacy Policy & Terms",
@@ -20,7 +21,7 @@ export default function PrivacyPage() {
               <div className="inner-container is-license">
                 <div className="section-tag-wrapper">
                   <img
-                    src="/axiolance/690f74385894ecf58abef4d1_68bfb430481fa3c0e8610f39_Vector (3) 1.svg"
+                    src={asset("/axiolance/690f74385894ecf58abef4d1_68bfb430481fa3c0e8610f39_Vector (3) 1.svg")}
                     loading="lazy"
                     alt=""
                     className="star-tag"

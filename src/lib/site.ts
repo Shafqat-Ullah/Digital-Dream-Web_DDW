@@ -1,3 +1,9 @@
+export const ASSET_BASE = process.env.NEXT_PUBLIC_GH_PAGES === "true" ? "/Digital-Dream-Web_DDW" : "";
+
+export function asset(path: string): string {
+  return `${ASSET_BASE}${path}`;
+}
+
 export const site = {
   name: "Digital Dream Web",
   legalName: "Digital Dream Web",

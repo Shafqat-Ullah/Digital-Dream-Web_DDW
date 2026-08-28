@@ -1,6 +1,7 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
+import { asset } from "@/lib/site";
 
 const items = [
   {
@@ -8,24 +9,24 @@ const items = [
       "Digital Dream Web exceeded our expectations. The new site is sleek, lightning-fast, and packed with features that have visibly grown our conversions.",
     name: "Sarah Miller",
     role: "Founder & CEO at NOVA",
-    photo: "/axiolance/691b7052290656743802fd3f_Henry D. Suza (1).avif",
-    logo: "/axiolance/69109b150659cf1cfea634ca_Logo-.svg",
+    photo: asset("/axiolance/691b7052290656743802fd3f_Henry D. Suza (1).avif"),
+    logo: asset("/axiolance/69109b150659cf1cfea634ca_Logo-.svg"),
   },
   {
     quote:
       "We love working with Digital Dream Web. The flexible customization and smooth performance helped our team launch faster and deliver better results to clients consistently.",
     name: "Imran Khan",
     role: "Founder & CEO at xTRAI",
-    photo: "/axiolance/691b70e664e52cd4085c9962_Muntaha-Moon (1).avif",
-    logo: "/axiolance/69109b1509c4ee482d866964_Logo1.svg",
+    photo: asset("/axiolance/691b70e664e52cd4085c9962_Muntaha-Moon (1).avif"),
+    logo: asset("/axiolance/69109b1509c4ee482d866964_Logo1.svg"),
   },
   {
     quote:
       "They think like product owners, not contractors. Clean design and powerful features streamline our workflows and improve efficiency across the whole team.",
     name: "Emily Chen",
     role: "Product Lead at HIKI",
-    photo: "/axiolance/691b71942179e869b8e78d46_Nishant Monacha (1).avif",
-    logo: "/axiolance/69109b15f0287592a33d56e6_Logo2.svg",
+    photo: asset("/axiolance/691b71942179e869b8e78d46_Nishant Monacha (1).avif"),
+    logo: asset("/axiolance/69109b15f0287592a33d56e6_Logo2.svg"),
   },
 ];
 
@@ -74,7 +75,7 @@ export function Testimonials() {
                         <div className="testimonials-content">
                           <div className="testimonials-logo">
                             <img
-                              src="/axiolance/691098581efb36ab68c4bb37_quotation-marks (1) 1.avif"
+                              src={asset("/axiolance/691098581efb36ab68c4bb37_quotation-marks (1) 1.avif")}
                               loading="lazy"
                               alt=""
                               className="quation-logo"

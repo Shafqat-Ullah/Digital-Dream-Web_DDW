@@ -1,8 +1,8 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import type { FormEvent } from "react";
-import { site } from "@/lib/site";
+import { asset, site } from "@/lib/site";
 
 export function ContactSection() {
   const [sent, setSent] = useState(false);
@@ -37,7 +37,7 @@ export function ContactSection() {
             <div className="section-header is-max">
               <div className="section-tag-wrapper">
                 <img
-                  src="/axiolance/690f74385894ecf58abef4d1_68bfb430481fa3c0e8610f39_Vector (3) 1.svg"
+                  src={asset("/axiolance/690f74385894ecf58abef4d1_68bfb430481fa3c0e8610f39_Vector (3) 1.svg")}
                   loading="lazy"
                   alt=""
                   className="star-tag"
@@ -72,7 +72,7 @@ export function ContactSection() {
                     </a>
                     <a href={`tel:${site.phone}`} className="contact-link w-inline-block">
                       <img
-                        src="/axiolance/68d2cece266dc46d193bac97_phone-call.svg"
+                        src={asset("/axiolance/68d2cece266dc46d193bac97_phone-call.svg")}
                         loading="lazy"
                         alt=""
                         className="phone-logo"

@@ -1,7 +1,8 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Link from "next/link";
+import { asset } from "@/lib/site";
 
 const links = [
   { label: "Home", href: "/" },
@@ -21,7 +22,7 @@ export function Navbar() {
           <Link href="/" aria-current="page" className="navbar-brand w-nav-brand w--current">
             <img
               loading="eager"
-              src="/logo.png"
+              src={asset("/logo.png")}
               alt="Digital Dream Web logo"
               className="nav-image"
             />

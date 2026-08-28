@@ -1,9 +1,9 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import type { FormEvent } from "react";
 import Link from "next/link";
-import { site } from "@/lib/site";
+import { asset, site } from "@/lib/site";
 
 const mainPages = [
   { label: "Home", href: "/" },
@@ -41,7 +41,7 @@ export function Footer() {
           <div className="footer-upper-wrapper">
             <div className="inner-container top-left">
               <Link href="/" className="footer-logo w-inline-block">
-                <img src="/logo.png" loading="lazy" alt="Digital Dream Web logo" className="logo-main" />
+                <img src={asset("/logo.png")} loading="lazy" alt="Digital Dream Web logo" className="logo-main" />
               </Link>
               <div className="newsletter-wrapper">
                 <div className="text-regular is-white">Subscribe For Our Newsletter</div>
@@ -121,7 +121,7 @@ export function Footer() {
       <div className="footer-bottom-wrapper">
         <h2 className="footer-title">Digital Dream Web</h2>
         <img
-          src="/axiolance/692dca8a15c16b99bef22f51_Group-image-p-1080.png"
+          src={asset("/axiolance/692dca8a15c16b99bef22f51_Group-image-p-1080.png")}
           loading="lazy"
           alt=""
           className="union-image"

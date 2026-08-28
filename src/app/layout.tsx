@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter_Tight } from "next/font/google";
 import "./globals.css";
-import { site } from "@/lib/site";
+import { asset, site } from "@/lib/site";
 import { RevealEngine } from "@/components/reveal-engine";
 
 const interTight = Inter_Tight({
@@ -45,13 +45,13 @@ export const metadata: Metadata = {
     siteName: site.name,
     title: title.default,
     description: site.description,
-    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: site.name }],
+    images: [{ url: asset("/opengraph-image"), width: 1200, height: 630, alt: site.name }],
   },
   twitter: {
     card: "summary_large_image",
     title: title.default,
     description: site.description,
-    images: ["/opengraph-image"],
+    images: [asset("/opengraph-image")],
   },
   robots: {
     index: true,
@@ -65,10 +65,10 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: [{ url: "/logo.png", sizes: "500x500", type: "image/png" }],
-    apple: [{ url: "/logo.png", sizes: "180x180" }],
+    icon: [{ url: asset("/logo.png"), sizes: "500x500", type: "image/png" }],
+    apple: [{ url: asset("/logo.png"), sizes: "180x180" }],
   },
-  manifest: "/manifest.webmanifest",
+  manifest: asset("/manifest.webmanifest"),
 };
 
 const organizationSchema = {

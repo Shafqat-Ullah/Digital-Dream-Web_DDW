@@ -1,3 +1,4 @@
+﻿import { asset } from "@/lib/site";
 export function LogoStrip() {
   const logos = [
     "68d25330b01bba41673186a3_Logo (1).svg",
@@ -23,7 +24,7 @@ export function LogoStrip() {
             {logos.map((l, i) => (
               <img
                 key={l}
-                src={`/axiolance/${l}`}
+                src={asset(`/axiolance/${l}`)}
                 loading="lazy"
                 alt="Client logo"
                 className={i === logos.length - 1 ? "trust-logo is-sm" : "trust-logo"}

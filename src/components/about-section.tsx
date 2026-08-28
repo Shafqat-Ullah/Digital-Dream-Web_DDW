@@ -1,3 +1,4 @@
+﻿import { asset } from "@/lib/site";
 export function AboutSection() {
   return (
     <section id="About" className="section-about">
@@ -8,7 +9,7 @@ export function AboutSection() {
               <div className="inner-container">
                 <div className="section-tag-wrapper">
                   <img
-                    src="/axiolance/690f74385894ecf58abef4d1_68bfb430481fa3c0e8610f39_Vector (3) 1.svg"
+                    src={asset("/axiolance/690f74385894ecf58abef4d1_68bfb430481fa3c0e8610f39_Vector (3) 1.svg")}
                     loading="lazy"
                     alt=""
                     className="star-tag"
@@ -48,7 +49,7 @@ export function AboutSection() {
               data-w-id="39da0660-16d6-84d3-34b2-edceed664141"
             >
               <img
-                src="/axiolance/691b629732d913f2c2326410_Ultimate-Application-for-Managing (2).avif"
+                src={asset("/axiolance/691b629732d913f2c2326410_Ultimate-Application-for-Managing (2).avif")}
                 loading="lazy"
                 alt="Digital Dream Web product showcase"
                 className="image-cover"

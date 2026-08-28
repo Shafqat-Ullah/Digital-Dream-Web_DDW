@@ -1,8 +1,9 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 
 import { BOUNCE_PAST } from "@/lib/interactions";
+import { asset } from "@/lib/site";
 
 const faqIds = [
   "057c50d5-b19b-3d72-10c2-4f7be7482e4b",
@@ -66,7 +67,7 @@ export function FaqSection() {
             <div className="section-header is-max">
               <div className="section-tag-wrapper">
                 <img
-                  src="/axiolance/690f74385894ecf58abef4d1_68bfb430481fa3c0e8610f39_Vector (3) 1.svg"
+                  src={asset("/axiolance/690f74385894ecf58abef4d1_68bfb430481fa3c0e8610f39_Vector (3) 1.svg")}
                   loading="lazy"
                   alt=""
                   className="star-tag"

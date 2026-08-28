@@ -1,3 +1,4 @@
+﻿import { asset } from "@/lib/site";
 function BorderDots() {
   return (
     <>
@@ -81,19 +82,19 @@ export function Hero() {
             >
               <div className="author-wraper">
                 <img
-                  src="/axiolance/68d21a39b20d9e053aabf81a_Rectangle 190.avif"
+                  src={asset("/axiolance/68d21a39b20d9e053aabf81a_Rectangle 190.avif")}
                   loading="lazy"
                   alt="Happy client"
                   className="badge-image"
                 />
                 <img
-                  src="/axiolance/68d21a3835139974b9276b06_Rectangle 189.avif"
+                  src={asset("/axiolance/68d21a3835139974b9276b06_Rectangle 189.avif")}
                   loading="lazy"
                   alt="Happy client"
                   className="badge-image"
                 />
                 <img
-                  src="/axiolance/68d21a38bf14e7cc65f87b19_Rectangle 188.avif"
+                  src={asset("/axiolance/68d21a38bf14e7cc65f87b19_Rectangle 188.avif")}
                   loading="lazy"
                   alt="Happy client"
                   className="badge-image"
@@ -115,7 +116,7 @@ export function Hero() {
                     <span className="text-blue">Convert</span>
                   </div>
                   <img
-                    src="/axiolance/690f57590170aec328525866_Group 1261153753.svg"
+                    src={asset("/axiolance/690f57590170aec328525866_Group 1261153753.svg")}
                     loading="lazy"
                     alt=""
                     className="text-cover"
@@ -152,7 +153,7 @@ export function Hero() {
         </div>
 
         <img
-          src="/axiolance/68d249cfe01ab88e0c969d88_Mask group.avif"
+          src={asset("/axiolance/68d249cfe01ab88e0c969d88_Mask group.avif")}
           loading="lazy"
           alt="Digital Dream Web hero background"
           className="banner-bg-image"
@@ -166,7 +167,7 @@ export function DashbordOverlay() {
   return (
     <div className="dashbord-image-wrapper" data-w-id="f125550c-4eb5-5fa6-74d2-ee4a75889afb">
       <img
-        src="/axiolance/691b7a80823adc69c855f297_dashboard-overview.avif"
+        src={asset("/axiolance/691b7a80823adc69c855f297_dashboard-overview.avif")}
         loading="lazy"
         alt="Project dashboard overview"
         className="overview-image"
@@ -174,14 +175,14 @@ export function DashbordOverlay() {
       />
       <div className="dashbord-image-cover">
         <img
-          src="/axiolance/691b7994e77f494e1d51c18c_dashbord.avif"
+          src={asset("/axiolance/691b7994e77f494e1d51c18c_dashbord.avif")}
           loading="lazy"
           alt="Dashboard"
           className="dashbord-image"
         />
       </div>
       <img
-        src="/axiolance/691b7a3758195f7a848f71ba_dashboard-progress.avif"
+        src={asset("/axiolance/691b7a3758195f7a848f71ba_dashboard-progress.avif")}
         loading="lazy"
         alt="Project progress"
         className="progress-image"

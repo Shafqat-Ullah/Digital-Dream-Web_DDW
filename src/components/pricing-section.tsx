@@ -1,7 +1,8 @@
+﻿import { asset } from "@/lib/site";
 function Check({ x = false }: { x?: boolean }) {
   return (
     <img
-      src={x ? "/axiolance/69136fb4f5f158d84bba7b4e_circle-xmark.svg" : "/axiolance/68d2b34bfb2dd7c6d7396c07_check-circle.svg"}
+      src={x ? asset("/axiolance/69136fb4f5f158d84bba7b4e_circle-xmark.svg") : asset("/axiolance/68d2b34bfb2dd7c6d7396c07_check-circle.svg")}
       loading="lazy"
       alt={x ? "Not included" : "Included"}
       className="check-icon"
@@ -29,7 +30,7 @@ export function PricingSection() {
             <div className="section-header is-max">
               <div className="section-tag-wrapper">
                 <img
-                  src="/axiolance/690f74385894ecf58abef4d1_68bfb430481fa3c0e8610f39_Vector (3) 1.svg"
+                  src={asset("/axiolance/690f74385894ecf58abef4d1_68bfb430481fa3c0e8610f39_Vector (3) 1.svg")}
                   loading="lazy"
                   alt=""
                   className="star-tag"
