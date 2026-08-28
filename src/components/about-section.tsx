@@ -49,7 +49,7 @@ export function AboutSection() {
               data-w-id="39da0660-16d6-84d3-34b2-edceed664141"
             >
               <img
-                src={asset("/ddw/about-showcase.png")}
+                src={asset("/ddw/real/real-about.png")}
                 loading="lazy"
                 alt="Digital Dream Web product showcase"
                 className="image-cover"

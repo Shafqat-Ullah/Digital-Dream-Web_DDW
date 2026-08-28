@@ -7,31 +7,31 @@ const tabs = [
   {
     title: "Web Development",
     desc: "Custom, high-performance websites and web apps built with Next.js, React, and the MERN stack — fast, secure, and SEO-ready.",
-    img: asset("/ddw/feature-spa.png"),
+    img: asset("/ddw/real/real-web.png"),
     alt: "Web Development",
   },
   {
     title: "Mobile Apps",
     desc: "Native-feeling iOS and Android apps with clean architecture, offline support, and push notifications your users will love.",
-    img: asset("/ddw/feature-multilingual.png"),
+    img: asset("/ddw/real/real-mobile.png"),
     alt: "Mobile Apps",
   },
   {
     title: "UI/UX Design",
     desc: "Research-driven interfaces, wireframes, and design systems that turn visitors into customers.",
-    img: asset("/ddw/feature-multitenancy.png"),
+    img: asset("/ddw/real/real-uiux.png"),
     alt: "UI/UX Design",
   },
   {
     title: "SaaS & Product Engineering",
     desc: "From MVP to scale — multi-tenant dashboards, billing, and secure back ends that grow with your users.",
-    img: asset("/ddw/feature-customdomain.png"),
+    img: asset("/ddw/real/real-saas.png"),
     alt: "SaaS & Product Engineering",
   },
   {
     title: "AI & Automation",
     desc: "Custom AI assistants, chatbots, and workflow automation that save your team hours every week.",
-    img: asset("/ddw/feature-stripe.png"),
+    img: asset("/ddw/real/real-ai.png"),
     alt: "AI & Automation",
   },
 ];
