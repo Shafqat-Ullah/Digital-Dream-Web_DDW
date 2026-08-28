@@ -1,0 +1,17 @@
+{
+  "name": "Digital Dream Web",
+  "short_name": "Digital Dream Web",
+  "description": "Software, apps, and digital products built to perform. Web development, mobile apps, AI, SaaS, and design.",
+  "start_url": "/Digital-Dream-Web_DDW/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2684FC",
+  "icons": [
+    {
+      "src": "/Digital-Dream-Web_DDW/logo.png",
+      "sizes": "500x500",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
